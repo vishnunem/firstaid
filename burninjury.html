@@ -1,0 +1,154 @@
+<html>
+<head>
+<style>
+        /* Set display to none for image*/
+       #fire {
+            display: none;
+        }
+	#fuel{
+            display: none;
+        }
+	#chemical{
+            display: none;
+        }
+	button{
+		background-color:#ffffff;
+}
+	img{
+		width:300px;
+		height:450px;
+}
+
+
+    </style>
+</head>
+<body>
+
+  <center>      <h1>BURNING SKIN INJURY FIRST AID</h1><br></center>
+
+<h2>Fire accident</h2><br>
+
+<div id="fire">
+        <!-- Add id to text -->
+        <p>
+	
+	<h3>First aid in case of a fire accident:</h3>
+	<ul>
+		<li>Put out the fire or stop the person’s contact with hot liquid, steam, or other material.</li>
+		<li>Help the person “stop, drop, and roll” to smother flames.</li>
+		<li>Remove smoldering material from the person.</li>
+		<li>Remove hot or burned clothing. If clothing sticks to skin, cut or tear around it.</li>
+		<li>Stop the burning getting any worse by moving the casualty away from the source of heat.</li>
+		<li>Start cooling the burn as quickly as possible by running it under cool water for at least ten minutes or until the pain feels better.</li>
+		<li>Don’t use ice, creams or gels – they can damage tissues and increase risk of infection.
+Assess how bad the burn is.</li>
+		<li>Open a window, shout for help and stay where you are.</li>
+		<li>If someone’s clothes catch fire, make them immediately stop, drop and roll. </li>
+		<li>By dropping to the ground, wrapping tightly in a heavy fabric and rolling on the ground they will smother the flames.</li>
+		<li>Provide immediate first aid treatment for any burns.</li>
+		<li>These are some general guidelines for first aid in case of a fire accident. </li>
+		<li>However, it is always advisable to seek professional medical help as soon as possible.</li>
+</ul>
+	<form action="burninjury.html">
+	<button type="submit" style="width:50%; height:10%;">Back</button>
+	</form>
+</p>
+	
+</div><center>
+    <button type="button" onclick="fire()" id="firef">
+        <img src="https://i.pinimg.com/originals/8c/4d/10/8c4d10b3e764a5c18181409bebb23e21.jpg" width="50%">
+    </button><br><br></center>
+
+<h2>Fuel fire</h2><br>
+
+<div id="fuel">
+        <!-- Add id to text -->
+        <p>
+	<h3>First aid for fuel fire accident</h3>
+	<ul>
+		<li>Do not use water to extinguish a fuel fire. </li>
+		<li>Water can spread the fire by splashing the burning fuel.</li>
+		<li>Do turn off the fuel source if possible.</li>
+		<li>Do smother the fire with a fire blanket or a heavy material like a coat or a rug.</li>
+		<li>Do not use a fire extinguisher unless you are trained to use it.</li>
+		<li>Do remove any clothing or jewelry that is not stuck to the skin.</li>
+		<li>Do not remove clothing or jewelry that is stuck to the skin.</li>
+		<li>Do cool the burn with cool, running water for at least 20 minutes. </li>
+		<li>Do not use ice, creams, or gels as they can damage tissues and increase the risk of infection.</li>
+		<li>Do cover the burn with a sterile dressing or a clean cloth.</li>
+		<li>Do seek medical attention as soon as possible.</li>
+	</ul>
+	<form action="burninjury.html">
+	<button type="submit" style="width:50%; height:10%;">Back</button>
+	</form>
+</p>
+	
+</div><center>
+    <button type="button" onclick="fuel()" id="fuelf">
+        <img src="https://th.bing.com/th/id/OIP.Wyic_b9869QMVwbKV2CSPgHaKe?pid=ImgDet&rs=1" width="50%">
+    </button><br><br></center>
+
+	<h2>Chemical hazard injury</h2><br>
+
+<div id="chemical">
+        <!-- Add id to text -->
+        <p>
+	<h3>First aid for chemical splits</h3>
+	<ul>
+		<li>Do not use water to extinguish a chemical fire.</li>
+		<li>Water can spread the fire by splashing the burning chemical.</li>
+		<li>Do remove any contaminated clothing or jewelry.</li>
+		<li>Do not touch the affected area with bare hands.</li>
+		<li>Do flush the affected area with water for at least 20 minutes.</li>
+		<li>Do not use a neutralizing agent unless you are trained to use it.</li>
+		<li>Do cover the affected area with a sterile dressing or a clean cloth.</li>
+		<li>Do seek medical attention as soon as possible.</li>
+	</ul>
+	<form action="burninjury.html">
+	<button type="submit" style="width:50%; height:10%;">Back</button>
+	</form>
+</p>
+	
+</div><center>
+    <button type="button" onclick="chemical()" id="chemf" >
+        <img src="https://th.bing.com/th/id/OIP.R1r9YrY7bBNz9RgHCMa7ZQHaKd?pid=ImgDet&rs=1" width="50%">
+    </button>
+<br><br></center>
+
+<form action="firstaid.html">
+<center><button type="submit" style="width:50%; height:10%;">
+<font size="5%">Back</font>
+</button>
+</form>
+ 
+ 
+    <script>
+        function fire() {
+            /* Access text by id and change
+            the display property to block*/
+            document.getElementById('fire')
+                .style.display = "block";
+            document.getElementById('firef')
+                .style.display = "none";
+        }
+  
+        function fuel() {
+            /* Access text by id and change
+            the display property to block*/
+            document.getElementById('fuel')
+                .style.display = "block";
+            document.getElementById('fuelf')
+                .style.display = "none";
+        }
+   
+        function chemical() {
+            /* Access text by id and change
+            the display property to block*/
+            document.getElementById('chemical')
+                .style.display = "block";
+            document.getElementById('chemf')
+                .style.display = "none";
+        }
+    </script>
+</body>
+</html>

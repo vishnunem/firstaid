@@ -1,0 +1,155 @@
+<html>
+<head>
+<style>
+        /* Set display to none for image*/
+       #heart{
+            display: none;
+        }
+	#vehicle{
+            display: none;
+        }
+	button{
+		background-color:#ffffff;
+}
+	img{
+		width:300px;
+		height:450px;
+}
+
+    </style>
+</head>
+<body>
+
+  <center>      <h1>EMERGENCY</h1><br></center>
+
+<h2>Heart attack & Cardiac Arrest</h2><br>
+
+<div id="heart">
+        <!-- Add id to text -->
+        <p>
+	
+	<h3>First aid in case of a sudden heart attack</h3>
+
+	<h4>Dos:</h4>
+	<ul>
+		<li><h5>Call emergency services:</h5> Dial the emergency number (e.g., 911) immediately to get professional help on the way.</li>
+		<li><h5>Stay calm:</h5> Help the person sit down and try to keep them calm.</li>
+		<li><h5>Loosen clothing:</h5> If possible, loosen any tight clothing around the person’s neck or chest.</li>
+		<li><h5>Assist with medication:</h5> If the person has prescribed chest pain medication (e.g., nitroglycerin), help them take it as directed.</li>
+		<li><h5>Use an automated external defibrillator (AED):</h5> If available, follow the instructions on the AED to provide potentially life-saving treatment.</li>
+</ul>
+<h4>Don’ts:</h4>
+	<ul>
+
+		<li><h5>Drive or take public transport to the hospital:</h5> It is safer to wait for an ambulance, as the person’s condition may deteriorate en route.</li>
+		<li><h5>Ignore the pain:</h5> Take any chest pain or discomfort seriously and seek immediate medical attention2.
+		<li><h5>Get anxious about time wasted:</h5> Trust that the paramedics will perform necessary tests and procedures to assess the situation</li><br>
+	</ul>
+
+	<h3>First aid in case of a sudden cardiac arrest</h3>
+		
+	<h4>Dos:</h4>
+	<ul>
+		<li>Call 911 immediately to get emergency care quickly.</li>
+		<li>If more than one person is available, one should call 911 while the other tends to the person whose heart has stopped.</li>
+		<li>Start CPR immediately.</li>
+		<li> The American Heart Association recommends doing CPR with hard and fast chest compressions.
+		<ol>
+			<li> Push hard and fast on the person’s chest — about 100 to 120 pushes a minute.</li>
+			<li> If you’ve been trained in CPR, check the person’s airway.</li>
+			<li>Then deliver rescue breaths after every 30 compressions.</li>
+			<li>If you haven’t been trained, just continue chest compressions.</li> 
+			<li>Allow the chest to rise completely between compressions.</li>
+			<li>Use an automated external defibrillator (AED) if one is available.</li>
+			<li>Portable AEDs are available in many public places, including airports and shopping malls. </li>
+			<li>They come with step-by-step voice instructions for their use and are programmed to allow a shock only when appropriate.</li>
+		</ol>
+	</ul>
+
+<h4>Don’ts:</h4>
+	<ul>
+
+		<li>Don’t wait for EMS to arrive.</li>
+		<li> Seconds matter. Start CPR immediately.
+		<li>Don’t wait for someone else to step in. Start CPR even if it is not perfect.</li>
+		<li>Doing CPR gives the person their best chance.</li>
+	</ul>
+Remember, sudden cardiac arrest is a serious and life-threatening medical emergency. <br>Immediate action with CPR and an AED can make a significant difference in saving a life<br><br><br>
+
+	<form action="emergency.html">
+	<button type="submit" style="width:50%; height:10%;">Back</button>
+	</form>
+</p>
+	
+</div><center>
+    <button type="button" onclick="heart()" id="hearta">
+        <img src="https://th.bing.com/th/id/OIP.I0AIZHU-dwMYBKj62h0c0wHaJR?pid=ImgDet&w=816&h=1022&rs=1">
+    </button><br><br></center>
+
+
+<h2>Road accident</h2><br>
+
+<div id="vehicle">
+        <!-- Add id to text -->
+        <p>
+	<h3>First aid in case of any road accident</h3>
+	
+	<h4>Dos:</h4>
+	<ul>
+		<li>Call 911 immediately to get emergency care quickly.</li>
+		<li>Check yourself and others for injuries right away.</li>
+		<li>If anyone is injured, call for medical assistance immediately.</li>
+		<li>Get all vehicles involved off the road if you are able to .</li>
+		<li>Take photos of any damage to your vehicle and other vehicles .</li>
+		<li>Trade contact and insurance information with other drivers .</li>
+		<li>Contact the authorities .</li>
+	</ul>
+	
+	<h4>Don’ts:</h4>
+	<ul>
+
+		<li>Do not move your vehicle after an automobile accident unless necessary for safety or required by law .</li>
+		<li>Do not put yourself at risk of being further injured by standing or waiting in an area with traffic or other safety hazards .</li>
+		<li>Do not leave the scene of an accident until the police tell you it’s okay to do so .</li>
+	</ul>
+
+Remember, it’s important to stay calm and collected in such situations. <br>If you witness a road accident, follow these dos and don’ts to ensure your safety and the safety of others involved.<br><br><br>
+	<form action="emergency.html">
+	<button type="submit" style="width:50%; height:10%;">Back</button>
+	</form>
+</p>
+	
+</div><center>
+    <button type="button" onclick="vehicle()" id="vehiclea">
+        <img src="https://images.ctfassets.net/uwf0n1j71a7j/4QIjosPhta7AMrfq0gTMU2/1e62090503376317b9f586f3ef17f90d/dos-and-donts-after-road-accident.png" width="50%">
+    </button><br><br></center>
+
+<form action="firstaid.html">
+<center><button type="submit" style="width:50%; height:10%;">
+<font size="5%">Back</font>
+</button></center>
+</form>
+ 
+ 
+    <script>
+        function heart() {
+            /* Access text by id and change
+            the display property to block*/
+            document.getElementById('heart')
+                .style.display = "block";
+            document.getElementById('hearta')
+                .style.display = "none";
+        }
+  
+        function vehicle() {
+            /* Access text by id and change
+            the display property to block*/
+            document.getElementById('vehicle')
+                .style.display = "block";
+            document.getElementById('vehiclea')
+                .style.display = "none";
+        }
+   
+    </script>
+</body>
+</html>
